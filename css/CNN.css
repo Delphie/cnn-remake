@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+}
+#container {
+  width: 100%;
+}
+#headering {
+  width: 100%;
+  background-color: #000;
+  height: 75px;
+}
+#interior {
+  width: 1100px;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  height: 85px;
+}
+#logo {
+  width: 85px;
+  height: 85px;
+  background-image: url("https://logodownload.org/wp-content/uploads/2014/11/cnn-logo-1-1536x1536.png");
+  float: left;
+  display: inline-block;
+}
+/*#nav { 
+  width:995px;
+  float:left;
+  display:inline-block;
+  color:#fff;
+  margin-left:20px;
+}
+*/
+#topNav {
+  width: 1015px;
+  float: left;
+  color: #fff;
+  height: 40px;
+  background-color: #000;
+  float: left;
+}
+.topNavFont {
+  font-size: 1.25em;
+  color: #fff;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+}
+.greyFont {
+  color: #ccc;
+}
+#topNavFloatRight {
+  float: right;
+  width: 300px;
+}
+.topNavRight {
+  font-size: 0.9em;
+  color: #999;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+  float: left;
+}
+.searchBox {
+  background-color: #000;
+  font-size: 0.95em;
+  color: #fff;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+  font-weight: 400;
+  float: right;
+  background-color: #333;
+}
+.searchBox input {
+  height: 35px;
+  width: 150px;
+  vertical-align: middle;
+  line-height: 35px;
+  display: inline-box;
+  float: right;
+  color: #999;
+  font-size: 0.95em;
+  background-color: #333;
+  border: 0;
+  outline: none;
+}
+#bottomNav {
+  width: 1015px;
+  float: left;
+  color: #fff;
+  height: 35px;
+  background-color: #ccc;
+  float: left;
+}
+.bottomNavFont {
+  font-size: 0.95em;
+  color: #222;
+  line-height: 35px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+  font-weight: 400;
+}
+.bottomNavMoney {
+  background-color: #006598;
+  font-size: 0.95em;
+  color: #fff;
+  line-height: 35px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+  font-weight: 400;
+}
+.liveTv {
+  background-color: #c00;
+  font-size: 0.95em;
+  color: #fff;
+  line-height: 35px;
+  vertical-align: middle;
+  font-family: sans-sefif;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 12px;
+  font-weight: 400;
+  float: right;
+}
+/*--------main content-----------------------
+  ----*/
+
+#content {
+  width: 100%;
+}
+
+#mainLeft {
+  width: 300px;
+  vertical-align: top;
+  float: left;
+}
+.mainLeftHeading {
+  background-color: #f2f2f2;
+  color: #555;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  height: 37px;
+}
+.mainLeftHeadingFont {
+  font-family: sans-sefif;
+  line-height: 37px;
+  vertical-align: middle;
+  padding-left: 8px;
+  font-weight: 700;
+  font-size: 1em;
+}
+.mainLeftItem {
+  background-color: #fff;
+  color: #222;
+  border-top-color: #ccc;
+  border-top-style: solid;
+  border-top-width: thin;
+}
+.mainLeftItemFont {
+  font-family: sans-sefif;
+  vertical-align: middle;
+  width: 90%;
+  font-weight: 300;
+  font-size: 1em;
+}
+#mainRight {
+  width: 780px;
+  background-color: #fff;
+  float: right;
+  vertical-align: top;
+}
+.extraPaddingTop {
+  padding-top: 10px;
+}
+#mainNewsStory {
+  width: 780px;
+  height: 438px;
+  background-image: url("/img/donald-trump.jpg");
+  margin-top: 15px;
+}
+#mainNewsStoryInfoTop {
+  height: 318px;
+  background-color: transparent;
+}
+#mainNewsStoryInfo {
+  vertical-align: bottom;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#mainNewsLinks {
+  width: 100%;
+  padding: 10px;
+  float: left;
+}
+a.big:link {
+  font-size: 2.9em;
+  color: #222;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.big:visited {
+  font-size: 2.9em;
+  color: #222;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.big:hover {
+  font-size: 2.9em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.big:active {
+  font-size: 2.9em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.medium:link {
+  font-size: 1.7em;
+  color: #444;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 300;
+}
+a.medium:visited {
+  font-size: 1.7em;
+  color: #444;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 300;
+}
+a.medium:hover {
+  font-size: 1.7em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 300;
+}
+a.medium:active {
+  font-size: 1.7em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 300;
+}
+a.small:link {
+  font-size: 0.9em;
+  color: #006598;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 700;
+}
+a.small:visited {
+  font-size: 0.9em;
+  color: #006598;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 700;
+}
+a.small:hover {
+  font-size: 0.9em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 700;
+}
+a.small:active {
+  font-size: 0.9em;
+  color: #c00;
+  font-family: sans-sefif;
+  text-decoration: none;
+  font-weight: 700;
+}
