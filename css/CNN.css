@@ -1,13 +1,16 @@
 body {
-  margin: 0;
+  margin:0;
+  
 }
 #container {
   width: 100%;
+  
 }
 #headering {
   width: 100%;
   background-color: #000;
   height: 75px;
+  padding-top:10px;
 }
 #interior {
   width: 1100px;
@@ -18,11 +21,20 @@ body {
   height: 85px;
 }
 #logo {
-  width: 95px;
-  height: 95px;
+  margin-left:-10px;
+  width: 87px;
+  height: 87px;
   background-image: url("https://pluspng.com/img-png/cnn-logo-png-cnn-logos-brands-and-logotypes-4390x4390.png");
-  float: left;
-  display: inline-block;
+  float:left;
+  display: flex;
+  /*margin-top:-40px;
+  */
+  loading="lazy";
+  background-color: red; */
+background-image: url('image.png');
+background-repeat: none;
+background-size: 100% 100%;
+ 
 }
 /*#nav { 
   width:995px;
@@ -32,20 +44,28 @@ body {
   margin-left:20px;
 }
 */
-#topNav {
+/*#topNav {
   width: 1015px;
-  float: left;
+  float: flex;
   color: #fff;
   height: 40px;
   background-color: #000;
   float: left;
+}*/
+#topNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 40px;
 }
 .topNavFont {
   font-size: 1.25em;
   color: #fff;
   line-height: 40px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
@@ -62,7 +82,7 @@ body {
   color: #999;
   line-height: 40px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
@@ -74,14 +94,16 @@ body {
   color: #fff;
   line-height: 40px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
   font-weight: 400;
   float: right;
   background-color: #333;
+  margin-bottom:37px;
 }
+
 .searchBox input {
   height: 35px;
   width: 150px;
@@ -95,20 +117,32 @@ body {
   border: 0;
   outline: none;
 }
-#bottomNav {
+.searchBox input {
+  width: 100%; /* Adjust width for smaller screens */
+  max-width: 200px;
+}
+/*#bottomNav {
   width: 1015px;
-  float: left;
+  float: flex;
   color: #fff;
   height: 35px;
   background-color: #ccc;
   float: left;
+}*/
+#bottomNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  color: #222;
+  height: 35px;
 }
 .bottomNavFont {
   font-size: 0.95em;
   color: #222;
   line-height: 35px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
@@ -120,7 +154,7 @@ body {
   color: #fff;
   line-height: 35px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
@@ -132,7 +166,7 @@ body {
   color: #fff;
   line-height: 35px;
   vertical-align: middle;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   padding-left: 15px;
   display: inline-block;
   padding-right: 12px;
@@ -158,9 +192,12 @@ body {
   border-bottom-style: solid;
   border-bottom-width: thin;
   height: 37px;
+    background-color: red; */
+background-repeat: none;
+  color:#000;
 }
 .mainLeftHeadingFont {
-  font-family: sans-sefif;
+  font-family: sans-serif;
   line-height: 37px;
   vertical-align: middle;
   padding-left: 8px;
@@ -175,7 +212,7 @@ body {
   border-top-width: thin;
 }
 .mainLeftItemFont {
-  font-family: sans-sefif;
+  font-family: sans-serif;
   vertical-align: middle;
   width: 90%;
   font-weight: 300;
@@ -193,8 +230,11 @@ body {
 #mainNewsStory {
   width: 780px;
   height: 438px;
-  background-image: url("/img/donald-trump.jpg");
+  background-image: url("https://static01.nyt.com/images/2023/07/27/multimedia/27dc-trump-01-qwbh/27dc-trump-01-qwbh-videoSixteenByNine3000.jpg");
   margin-top: 15px;
+  background-color: white; 
+  background-repeat: none;
+  background-size: 100% 100%;
 }
 #mainNewsStoryInfoTop {
   height: 318px;
@@ -227,70 +267,136 @@ a.big:visited {
 a.big:hover {
   font-size: 2.9em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 500;
 }
 a.big:active {
   font-size: 2.9em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 500;
 }
 a.medium:link {
   font-size: 1.7em;
   color: #444;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 300;
 }
 a.medium:visited {
   font-size: 1.7em;
   color: #444;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 300;
 }
 a.medium:hover {
   font-size: 1.7em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 300;
 }
 a.medium:active {
   font-size: 1.7em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 300;
 }
 a.small:link {
   font-size: 0.9em;
   color: #006598;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 700;
 }
 a.small:visited {
   font-size: 0.9em;
   color: #006598;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 700;
 }
 a.small:hover {
   font-size: 0.9em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 700;
 }
 a.small:active {
   font-size: 0.9em;
   color: #c00;
-  font-family: sans-sefif;
+  font-family: sans-serif;
   text-decoration: none;
   font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+a:hover {
+  color: #c00;
+}
+
+#topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+}
+#bottomNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  color: #222;
+  height: 35px;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Adjust proportions as needed */
+  gap: 20px;
+}
+4. Responsive Search Box:
+Ensure the .searchBox adapts to different screen sizes:
+
+css
+Copy code
+.searchBox input {
+  width: 100%; /* Adjust width for smaller screens */
+  max-width: 200px;
+}
+
+css
+Copy code
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+a:hover {
+  color: #c00;
+}
+
+a:focus {
+  outline: 2px solid #c00;
+}
+
+@media (max-width: 768px) {
+  #topNav, #bottomNav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #content {
+    grid-template-columns: 1fr; /* Stack left and right sections */
+  }
 }
